@@ -1,0 +1,41 @@
+body{
+	background-color: #dfdfdf;
+	margin: 0;
+}
+.tit{
+	padding: 9px
+}
+
+@media only screen and (min-width: 768px) {
+  .section-form{
+	position: relative;
+	margin-top: 7%;
+	right: 10%;
+}
+.forms{
+	position: absolute;
+	background-color: #fff;
+	padding: 10px;
+	right: 28%;
+}
+
+
+  }
+
+@media only screen and (max-width: 768px) {
+ .section-form{
+	margin-top: 7%;
+	right: 10%;
+}
+.forms{
+
+	background-color: #fff;
+	padding: 10px;
+	
+}
+.form-group {
+	direction: rtl;
+}
+
+
+}
